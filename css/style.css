@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav {
+  background-color: #2780fd;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  height: 120px;
+  padding: 0% 5%;
+}
+
+.a_sizee{
+  margin-right: 10px;
+  display: flex;
+}
+#a_size{
+  margin-right: 50px;
+}
+.a_speede{
+  margin-right: 10px;
+}
+#a_speed{
+  margin-right: 300px;
+}
+#a_generate{
+  margin-left: 40px;
+}
+.algos{
+  margin-left: -250px;
+  
+}
+ .array-inputs {
+   display: flex;
+   width: 1600px;
+  
+
+  place-content: center;
+  padding:20px;
+  align-items: center;
+}
+section #array_container {
+  margin-left: 200px;
+ display:flex;
+  width: 1200px;
+  height: 70vh;
+  margin-top: -30px;
+  align-items: end;
+}
+
+
+nav .array-inputs #a_generate {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 4% 0% 0% 0%;
+  padding-left: 20%;
+}
+
+nav .array-inputs #a_generate:hover {
+  cursor: pointer;
+}
+
+nav .header_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+nav .header_right .nav-heading {
+  display: inline-block;
+  font-size: xxx-large;
+  padding: 3% 0%;
+}
+
+nav .header_right .algos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (16.66667%)[6];
+      grid-template-columns: repeat(6, 16.66667%);
+  place-content: center;
+  padding: 2% 0%;
+}
+
+nav .header_right .algos select button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  padding: 5% 0%;
+  font-size: x-large;
+}
+
+nav .header_right .algos select button:hover {
+  background-color: rgb(225, 225, 234);
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_selected {
+  background-color: white;
+  color: green;
+}
+
+nav .header_right .algos .butt_selected:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_unselected:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 60% 20%;
+      grid-template-columns: 20% 60% 20%;
+}
+
+
+.hide {
+  display: none;
+}
+
